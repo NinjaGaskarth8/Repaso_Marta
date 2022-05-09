@@ -44,6 +44,30 @@ public class PrácticaPaola {
 
 	}
 
+ public static void sumar(float num1, float num2) {
+	 
+	System.out.println(num1+num2);
+ }
+ public static void restar(float num1, float num2) {
+		if(num1>num2) {
+			System.out.println(num1-num2);
+		}else {
+			System.out.println(num2-num1);
+		}
 
+	}
+	
+	public static void multiplicar(float num1, float num2) {
+		System.out.println(num1*num2);
+	}
+	public static void dividir(float num1, float num2) {
+		if(num2 != 0) {
+			System.out.println(num1/num2);
+	
+		
+		}else {
+			System.out.println("El numero no es divisible por 0");
+		}
 
+	}
 }
